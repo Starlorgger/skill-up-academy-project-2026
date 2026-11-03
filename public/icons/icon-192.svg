@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <linearGradient id="bgGrad192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14213D"/>
+      <stop offset="50%" stop-color="#1b2a4a"/>
+      <stop offset="100%" stop-color="#0e172a"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8a73ea"/>
+      <stop offset="50%" stop-color="#7057D9"/>
+      <stop offset="100%" stop-color="#553dbb"/>
+    </linearGradient>
+    <linearGradient id="tealGrad192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4eecd0"/>
+      <stop offset="100%" stop-color="#35B8A0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="192" height="192" rx="42" fill="url(#bgGrad192)"/>
+  <rect width="188" height="188" x="2" y="2" rx="40" fill="none" stroke="#7057D9" stroke-width="2.5" stroke-opacity="0.4"/>
+
+  <g transform="translate(96, 96) scale(0.35) translate(-256, -256)">
+    <path d="M 330 155 C 330 155, 190 145, 175 220 C 160 285, 340 280, 335 345 C 330 405, 180 400, 160 365" 
+          fill="none" 
+          stroke="url(#purpleGrad192)" 
+          stroke-width="52" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+
+    <path d="M 325 340 C 320 395, 195 395, 175 365" 
+          fill="none" 
+          stroke="url(#tealGrad192)" 
+          stroke-width="24" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+
+    <polygon points="256,105 320,135 256,165 192,135" fill="url(#tealGrad192)"/>
+    <circle cx="256" cy="135" r="8" fill="#F8F9FC"/>
+
+    <path d="M 390 110 Q 390 135 415 135 Q 390 135 390 160 Q 390 135 365 135 Q 390 135 390 110 Z" 
+          fill="url(#tealGrad192)"/>
+  </g>
+</svg>

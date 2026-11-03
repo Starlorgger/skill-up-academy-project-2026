@@ -1,0 +1,6 @@
+{
+  "name": "SkillUp Academy",
+  "description": "SkillUp Academy is a premier mobile-first digital skills learning platform featuring courses in AI, software engineering, design, digital marketing, and freelancing with hands-on projects, interactive quizzes, and an AI learning assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,31 @@
+{
+  "packageId": "com.tayoverse.skillupacademy",
+  "host": "skillup-academy.com",
+  "name": "SkillUp Academy",
+  "launcherName": "SkillUp",
+  "themeColor": "#14213D",
+  "navigationColor": "#14213D",
+  "backgroundColor": "#14213D",
+  "startUrl": "/",
+  "iconUrl": "https://raw.githubusercontent.com/tayoverse/skillup-academy/main/public/icons/icon-512.svg",
+  "maskableIconUrl": "https://raw.githubusercontent.com/tayoverse/skillup-academy/main/public/icons/icon-maskable-512.svg",
+  "appVersionCode": 1,
+  "appVersionName": "1.0.0",
+  "display": "standalone",
+  "orientation": "portrait",
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://skillup-academy.com/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {
+    "playBilling": {
+      "enabled": false
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "signingKey": {
+    "path": "./android.keystore",
+    "alias": "skillup"
+  }
+}

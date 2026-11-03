@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  skillup-academy:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: skillup-academy-app
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - PAYSTACK_SECRET_KEY=${PAYSTACK_SECRET_KEY:-sk_test_demo}
+      - PAYSTACK_PUBLIC_KEY=${PAYSTACK_PUBLIC_KEY:-pk_test_demo}
+      - APP_URL=${APP_URL:-http://localhost:3000}
